@@ -1,5 +1,5 @@
-androidWebview，收集整理版
-==============
+android webview框架，收集整理版
+===================
 通过安卓webview创建的app应用框架（还没到页面细节实现），没有使用phoneGap之类的工具。使用对象是不需要调用设备硬件操作的页面，而其他硬件操作需求由java去实现，同时java和js之间进行通信交互。
 
 assets/ 是web资源文件，html css js image等，这里用了seajs加载，zepto类库，backbone框架。
