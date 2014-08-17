@@ -4,4 +4,4 @@ android webview框架，收集整理版
 
 assets/ 是web资源文件，html css js image等，这里用了seajs加载，zepto类库，backbone框架。
 
-java代码用到了一个对WebChromeClient的扩展组件--MyWebChromeClient，用于实现js的alert confirm prompt等功能，但还是建议使用js自定义相关控件，理由：原生弹窗的界面不好看，back建开启和关闭会引发一些问题和体验的不足。
+java代码用到了一个对WebChromeClient的扩展组件--MyWebChromeClient，用于实现js的alert confirm prompt等功能，不过这个组件有bug：back建开启和关闭会引发一些问题和体验的不足。
